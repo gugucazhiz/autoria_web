@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <style>
+        .error{
+            border: 0.15rem solid red;
+        }
+    </style>
+</head>
+    
+<body>
+    <h1>Home</h1>
+
+    <form action="http://localhost:8090//submit" method="POST">
+        <label for="nomeDigitado">Nome:</label>
+        <br>
+        <input type="text" name="nome" placeholder="Nome"/>
+        <br>
+        <input type="number" name="idade" placeholder="Idade"/>
+        <br>
+        <input type="email" name="email" placeholder="Email"/>
+        <br>
+        <input type="password" name="senha" placeholder="Senha"/>
+        <br>
+        <button type="submit" >Verificar</button>
+    </form>
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>

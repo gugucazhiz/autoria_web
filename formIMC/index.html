@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <style>
+        .error{
+            border: 0.15rem solid red;
+        }
+    </style>
+</head>
+    
+<body>
+    <h1>Realize o Calculo Do Imc</h1>
+    <fieldset>
+        <legend>Preencha os dados</legend>
+    <form action="" >
+        <label for="nomeDigitado">Nome:</label>
+        <input id="nome" type="text" name="nome" placeholder="Nome"/>
+        <br>
+        <label for="pesoDigitado">Peso(Em Kg):</label>
+        <input id="numeroPeso" type="number" name="peso" placeholder="Peso" min="30"/>
+        <br>
+        <label for="AlturaDigitado">Altura(Em mm):</label>
+        <input id="numeroAltura" type="number" name="altura" placeholder="Altura" min="100"/>
+        <br>
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button">Limpar</button>
+    </form>
+    </fieldset>
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>
