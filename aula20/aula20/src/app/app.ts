@@ -4,6 +4,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
   imports: [RouterOutlet, MatButtonModule,MatToolbarModule],
   templateUrl: './app.html',
